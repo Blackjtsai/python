@@ -9,8 +9,8 @@ def color(x):
 
 def size(x):
     if x=="big" :
-        return "大"
+        return "大"+x
     elif x=="small":
-        return "小"
+        return "小"+x
     else:
         return "size沒定義"+x
